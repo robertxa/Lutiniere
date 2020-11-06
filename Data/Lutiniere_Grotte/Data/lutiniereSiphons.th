@@ -1,0 +1,160 @@
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey lutiniereSiphons -title "Siphons de la Grotte de la lutinière"
+
+  centerline -title "S1"
+	date 2020.09.20 
+    	team "Stéphane Lips"
+	explo-date 1959.09.18
+		explo-team "Maurice Chavrier"
+		explo-team "Robert Juge"
+	
+    units length meters
+    units compass clino degrees
+    
+	#data diving from to length compass fromdepth todepth
+	    #flags approx
+ 		## Données fictives, juste pour pouvoir recoller les bouts, de l'aval vers l'amont
+	 	#0	1	45	95	0	-17	# -17 est le point bas
+ 		#1	2	45	0	-17	0	# sortie du S1, côté amont
+	 	#flags not approx
+ 	
+	data diving from to fromcount tocount compass fromdepth todepth left right up down
+	#	Param Topof 100.000 Deg Prof 0.0000 Dir,Dir,Dir Arr Std 
+	# Topographié par Stéphane Lips le 20/09/2020 sur le fil topo ; entré sous Visual Topo et modifié par Xavier Robert
+
+	#0a	0	0.0	0.0    0.00	0	0.00   1.00   1.50   3.00   0.00	# Début S1 (terminus topo Xavier Robert et Guillaume Cerdan du 12/09/2020) ; Inutile car inclus dans la ligne suivante, et LRUD prises dans la topo de l'exondé
+	0	1	3.0	6.0  140.00	0	-2.20   0.50   1.00   1.00   0.50
+	1	2	6.0	10.0  110.00	-2.2	-3.50   1.00   2.00   1.50   0.50
+	2	3	10.0	20.0   90.00	-3.5	-8.30   1.00   1.00   4.00   1.00
+	3	4	20.0	29.0  110.00	-8.3	-14.90   1.00   1.50   4.00   0.00	# Ressaut
+	4	5	29.0	34.0    0.00	-14.9	-16.00   1.50   1.50   4.00   0.00	# Point bas du siphon à -16 m
+	5	6	34.0	40.0  100.00	-16	-14.20   1.00   1.00   3.00   3.00	# Ressaut
+	6	7	40.0	48.0   40.00	-14.2	-7.20   1.00   2.00   1.50   1.00
+	7	8	48.0	50.0   50.00	-7.2	-8.10   1.10   1.50   1.50   1.00
+	8	9	50.0	58.0    0.00	-8.1	-7.30   2.00   1.00   2.00   0.00
+	9	10	58.0	66.0  340.00	-7.3	-3.20   2.00   1.00   3.00   0.00	# Salle avec cloche au plafond (50 cm d'air)
+	10	11	66.0	71.0   10.00	-3.2	-3.60   3.00   1.00   4.00   1.00	# Arches
+	11	12	71.0	76.0   30.00	-3.6	-3.30   0.00   2.00   4.00   1.00
+	12	13	76.0	86.0    0.00	-3.3	0.00   1.00   2.00   2.00   0.00	# Fin du S1 ; Reprise sur la topo de l'exondé du 12/09/2020 par Xavier Robert et Guillaume Cerdan
+
+  endcenterline
+
+
+  centerline -title "S2 jusqu'à la grande salle"
+	date 2020.09.20 
+    	team "Stéphane Lips"
+	explo-date 1973.09.18
+		explo-team "Bertrand Léger"
+	explo-date 1977.09.18
+		explo-team "Bertrand Léger"
+	explo-date 1982.09.18
+		explo-team "Bertrand Léger"
+	explo-date 2020.09.06
+		explo-team "Stéphane Lips"
+		explo-team "Cédric Lacharmoise"
+	explo-date 2020.09.12
+		explo-team "Stéphane Lips"
+		explo-team "Cédric Lacharmoise"	
+	explo-date 2020.09.20
+		explo-team "Stéphane Lips"
+		explo-team "Cédric Lacharmoise"	
+    
+    units length meters
+    units compass clino degrees
+    
+    #data diving from to length compass fromdepth todepth
+    data diving from to fromcount tocount compass fromdepth	todepth left right up down
+    # Topographié par Stéphane Lips le 20/09/2020 sur le fil topo ; entré sous Visual Topo et modifié par Xavier Robert
+	#Param Topof 100.000 Deg Prof 0.0000 Dir,Dir,Dir Arr 50,205,50
+
+	#20a	20	7.0	7.0    0.00    0.00   0.00   2.00   1.00   0.40	# Début S2 (fin topo du 12/09/2020) ; Inutile car inclus dans la ligne suivante, et LRUD prises dans la topo de l'exondé
+	20	21	7.0	12.0	150.00	0	-3.10   0.00   3.00   1.20   0.00 
+	21	22	12.0	18.0	105.00	-3.1	-5.00   2.00   3.00   2.00   1.00 
+	22	23	18.0	22.0	130.00	-5	-6.10   2.00   3.00   2.00   0.00	# Départ à gauche à aller voir
+	23	24	22.0	27.0	160.00	-6.1	-8.90   1.00   0.00   2.00   2.00 
+	24	25	27.0	30.0	20.00	-8.9	-11.20   1.00   1.00   0.60   0.60	# 1ère étroiture verticale
+	25	26 	30.0	36.0	100.00	-11.2	-14.40   0.00   1.50   1.20   0.00 
+	26	27	36.0	41.0	140.00	-14.4	-17.10   0.00   1.50   0.60   0.60 
+	27	28	41.0	47.0	130.00	-17.1	-20.20   1.00   1.50   1.50   0.00 
+	28	29	47.0	55.0	80.00	-20.2	-22.20   1.50   1.50   0.50   1.00	# Point bas du siphon à -23 m
+	29	30	55.0	58.0	60.00	-22.2	-22.60   1.50   1.50   0.50   0.50 
+	30	31	58.0	70.0	0.00	-22.6	-18.00   1.50   1.50   0.60   0.80 
+	31	32	70.0	72.0	10.00	-18.0	-16.50   0.50   0.50   0.50   0.50	# Passage entre blocs
+	32	33	72.0	75.0	60.00	-16.5	-15.00   0.50   0.50   0.50   0.50	# passage entre blocs
+	33	34 	75.0	77.0	60.00	-15	-14.00   2.00   2.00   3.00   1.00	# Fin topo, sur cailloux dans la faille, au croisement des feux fils. Point repère profondeur à -14 m le jour de la topo.
+
+  endcenterline
+
+
+  centerline -title "S2 jusqu'à la grande salle 2"
+	date 2020.09.20 
+    	team "Stéphane Lips"
+	explo-date 1973.09.18
+		explo-team "Bertrand Léger"
+	explo-date 1977.09.18
+		explo-team "Bertrand Léger"
+	explo-date 1982.09.18
+		explo-team "Bertrand Léger"
+	explo-date 2020.09.06
+		explo-team "Stéphane Lips"
+		explo-team "Cédric Lacharmoise"
+	explo-date 2020.09.12
+		explo-team "Stéphane Lips"
+		explo-team "Cédric Lacharmoise"	
+	explo-date 2020.09.20
+		explo-team "Stéphane Lips"
+		explo-team "Cédric Lacharmoise"	
+    
+    units length meters
+    units compass clino degrees	
+	data diving from to length compass fromdepth	todepth left right up down
+	flags approx
+	34	35	13	110.00	-14	-20.00   0.60   0.60   0.50   0.50	# Visée fictive vers l'aval de la salle. Arrêt sur galerie descendante à poursuivre (90 m, -20 m)
+	flags not approx
+	flags duplicate
+	34	36	4	320.00	-14	-16.00   3.00   1.00   4.00   1.50	# Visée ficitve traversée de la salle, début de la descente entre les blocs
+	36	37	13	340.00	-16	-22.00   1.00   1.00   4.00   0.00	# Visée fictive, arrêt à 92 m (94 m réel), - 22 m
+	flags not duplicate
+    extend left
+    flags approx
+    34	38	10	300.00	-14	-10.00   0.50   0.50   0.50   0.50	# Visée fictive vers le haut de la salle, fond à revoir avec un fil
+ 	flags not approx
+ 	
+  endcenterline
+
+
+  centerline -title "fin du S2"
+	date 2020.10.11 
+    	team "Stéphane Lips"	
+	explo-date 2020.10.11
+		explo-team "Stéphane Lips"
+		explo-team "Cédric Lacharmoise"	
+    
+    units length meters
+    units compass clino degrees
+    
+	#Param Deca Deg Deniv 0.0000 Dir,Dir,Dir Arr Std # Ligne vtopo Stéphane Lips
+	#data diving from to fromcount tocount compass fromdepth	todepth left right up down
+	data diving from to length compass fromdepth	todepth left right up down
+	extend left
+	flags duplicate
+	100faux	100	6.0	0.0	7.1	1.1	1.50   0.00   6.00   2.00	# Sortie siphon, a 0.6 m au dessus de l'eau lors de l'exploration, a 1.1 m au dessus de l'eau par rapport à la cote de la topo de la première partie du siphon ; Visée fictive verticale au dessus de la trémie
+	flags not duplicate
+	100	101	8.5	170.0	1.1	-4.1	1.00   1.00   4.00   0.00	# deniv = -5.2
+	101	102	13.0	200.0	-4.1	-8.1	1.50   0.00   4.00   1.00	# deniv = -4.0
+	102	103	16.0	180.0   -8.1	-13.0	1.50   0.00   4.00   0.00	# deniv = 	-4.9
+	103	104	20.0	160.0   -13.0	-14.4	1.50   0.00   4.00   0.00	# deniv = -1.40
+	104	105	10.0	170.0   -14.4	-14.5	0.70   0.80   4.00   0.00	# deniv = -0.1
+	105	106	10.0	170.0   -14.5	-19.0	0.00   1.50   5.00   0.00	# deniv = -4.5
+	106	107	6.0	150.0	-19.0	-22.0	0.00   1.50   5.00   0.00	# deniv = -3 ; Base de la trémie, dans la grande galerie
+	107	108	6.0	180.0	-22.0	-19.1	0.50   0.50   0.50   0.50	# deniv = +2.9 ; Etroiture dans la trémie
+	108	109	5.0	130.0	-19.1	-15.3	0.50   0.50   0.50   0.50	# deniv = +3.8 ; Etroiture dans la trémie
+	109	110	2.0	190.0	-15.3	-14.5	1   2   3   0	# deniv = +0.8 ; Dans la grande salle
+	110	34	2.0	100.0	-14.50	-14	1.50   2   3   0	# deniv = +0.5 : Profondeur de la séance précédente = -14.0
+
+  endcenterline
+
+endsurvey
