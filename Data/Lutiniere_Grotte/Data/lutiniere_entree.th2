@@ -1179,6 +1179,8 @@ line u:ariane
   279.5 252.5
 endline
 
+point 300.0 323.75 altitude -align bottom
+
 line wall
   285.25 214.25
   288.5 210.75 293.0 215.75 292.75 220.75
@@ -1196,7 +1198,6 @@ line wall
   286.75 332.5 288.75 336.25 289.25 334.5
   289.75 332.75 287.0 329.5 290.25 328.75
   293.5 328.0 295.25 324.5 300.0 323.75
-  altitude .
   304.75 323.0 308.0 325.5 313.0 325.75
   318.0 326.0 319.5 327.0 323.25 326.25
   327.0 325.5 327.0 324.0 331.5 326.0
@@ -1556,8 +1557,6 @@ point 530.5 313.5 breakdown-choke -orientation 7.8
 
 point 524.25 315.5 breakdown-choke -orientation 7.8
 
-point 591.0 277.0 continuation -attr Code A -text "Sommet de la salle à fouiller, peut-être qu'il y a quelque chose, mais ce n'est pas garantie"
-
 line gradient
   542.0 303.5
   576.0 290.25
@@ -1616,12 +1615,19 @@ line u:ariane
 endline
 
 line u:ariane
+  579.254 288.189
+  579.254 288.189 597.2 277.35 600.474 275.79900000000004
+  603.75 274.25 606.384 272.32900000000006 606.384 272.32900000000006
+  smooth off
+endline
+
+line u:ariane
   530.744 300.509
   536.654 303.899
   579.254 288.189
 endline
 
-point 587.5 285.25 altitude -align top-right
+point 605.75 268.75 altitude -align bottom
 
 point 500.25 323.25 altitude -align left
 
@@ -1635,10 +1641,10 @@ endarea
 
 line label -id l235-562-282 -close on
   562.25 282.75
-  586.75 283.25
-  587.5 285.25
-  587.5 285.25 576.0 304.5 567.0 306.75
-  558.0 309.0 531.0 315.0 531.0 315.0
+  605.75 268.75
+  609.75 273.75
+  609.75 273.75 589.0 302.25 580.0 304.5
+  571.0 306.75 531.0 315.0 531.0 315.0
   smooth off
   520.25 318.5
   520.25 318.5 507.25 329.5 504.75 328.75
@@ -1662,6 +1668,35 @@ line wall -subtype unsurveyed
   540.0 311.5 531.0 315.0 531.0 315.0
   smooth off
 endline
+
+point 607.75 273.25 blocks
+
+point 597.5 279.75 blocks
+
+point 595.75 268.5 clay -clip off
+
+point 586.25 276.0 clay -clip off
+
+point 618.25 266.5 narrow-end
+
+line wall -subtype presumed
+  609.75 273.75
+  altitude [-216 m]
+  609.75 273.75 600.0 282.75 596.75 283.0
+  593.5 283.25 590.0 283.0 587.5 285.25
+endline
+
+line wall -subtype presumed
+  586.75 283.25
+  586.75 283.25 586.5 282.25 592.0 278.75
+  597.5 275.25 597.25 275.0 599.5 273.25
+  601.75 271.5 605.75 268.75 605.75 268.75
+  smooth off
+endline
+
+point 606.384 272.32900000000006 station -name 37b@lutiniereSiphons
+
+point 600.474 275.79900000000004 station -name 36b@lutiniereSiphons
 
 line wall -subtype unsurveyed
   534.75 296.75
@@ -2198,12 +2233,14 @@ line wall
   532.0 646.5 527.75 647.25 526.0 647.0
   524.25 646.75 524.25 649.0 521.5 648.5
   518.75 648.0 516.0 648.25 514.0 648.25
+  smooth off
 endline
 
 line wall -subtype debris
   514.0 648.25
   512.0 648.25 507.25 647.5 508.25 644.5
   509.25 641.5 511.5 637.75 515.5 638.5
+  smooth off
 endline
 
 line wall

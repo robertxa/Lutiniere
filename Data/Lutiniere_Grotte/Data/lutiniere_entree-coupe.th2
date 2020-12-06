@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -167.99500000000012 -167.36999999999998 1899.0295999999998 521.7011
+##XTHERION## xth_me_area_adjust -167.99500000000012 -167.367 1899.0295999999998 521.7041
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {117.48199999999997 1 1.0} {275.591 0@lutiniere_entree.lutiniere} lutiniere-2020-coupe.xvi 0 {}
 
@@ -621,19 +621,29 @@ line u:ariane
 endline
 
 line u:ariane
+  1064.753 143.661
+  1088.712 123.98100000000001
+  1095.532 120.04100000000001
+endline
+
+line u:ariane
   1014.75 165.25
   1018.0 167.5
   1032.75 160.75
   1064.753 143.661
 endline
 
-point 1087.0 137.25 continuation -attr Code A -text "Galerie sur joint de strate à continuer, ça descend"
-
 point 963.75 187.5 continuation -attr Code A -text "Haut de la salle à fouiller"
 
 area sump
   l126-1040-173
 endarea
+
+point 1090.0 120.25 altitude -align bottom-left
+
+point 1095.532 120.04100000000001 station -name 37b@lutiniereSiphons
+
+point 1088.712 123.98100000000001 station -name 36b@lutiniereSiphons
 
 line label -id l126-1040-173 -close on
   1007.5 184.0
@@ -644,17 +654,38 @@ line label -id l126-1040-173 -close on
   1016.0 164.5
   1030.25 158.75
   1036.0 155.5
-  1065.75 135.75
-  1076.25 137.25
-  1076.0 139.5
+  1089.0 114.75
+  1097.25 118.25
+  1097.75 123.75
   1039.75 173.0
   1007.5 184.0
+endline
+
+line wall -subtype unsurveyed
+  1097.25 121.0
+  1097.25 121.0 1089.0 126.25 1087.0 127.75
+  1085.0 129.25 1081.5 132.25 1079.75 134.0
+  1078.0 135.75 1076.0 139.5 1076.0 139.5
+  smooth off
+endline
+
+point 1081.0 122.75 clay -clip off
+
+point 1109.75 121.0 narrow-end
+
+line wall -subtype debris
+  1074.0 133.75
+  1074.0 133.75 1084.0 124.5 1085.5 123.5
+  1087.0 122.5 1085.5 121.5 1090.0 120.25
+  1094.5 119.0 1097.25 118.25 1097.25 118.25
+  smooth off
+  altitude [-216 m]
 endline
 
 line wall -subtype debris
   1036.0 155.5
   1036.0 155.5 1063.5 141.25 1064.75 141.0
-  1066.0 140.75 1076.25 137.25 1076.25 137.25
+  1066.0 140.75 1074.0 133.75 1074.0 133.75
   smooth off
 endline
 
