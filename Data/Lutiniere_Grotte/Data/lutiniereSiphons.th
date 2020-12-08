@@ -169,7 +169,7 @@ centerline -title "S2 de la grande salle vers le bas de la salle"
 	data diving from to length compass fromdepth	todepth left right up down
 	flags approx
 	35	36b	8	120.00	-20	-25   0.60   0.60   0.50   0.50	# Etroit, bloc, glaise
-	36b	37b	2	120	-25	-26	   0.60   0.60   0.15   0.15	# vue sur 2 m, non pénétrable, glaise et blocs
+	36b	37b	2	120	-25	-25	   0.60   0.60   0.15   0.15	# vue sur 2 m, non pénétrable, glaise et blocs
 	flags not approx
 	 	
   endcenterline
