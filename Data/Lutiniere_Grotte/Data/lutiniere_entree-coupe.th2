@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -167.99500000000012 -167.367 1899.0295999999998 521.7041
+##XTHERION## xth_me_area_adjust -167.99500000000012 -167.36599999999999 1899.0295999999998 521.7051
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {117.48199999999997 1 1.0} {275.591 0@lutiniere_entree.lutiniere} lutiniere-2020-coupe.xvi 0 {}
 
@@ -325,6 +325,8 @@ line label -id l85-274-223 -close on
   273.25 223.5
 endline
 
+point 338.75 130.0 u:symbol_extend
+
 line label -id l83-367-222 -close on
   263.5 221.25
   254.5 221.25
@@ -408,6 +410,10 @@ line u:strata -clip off
 endline
 
 point 817.0 217.75 label -text "salle"
+
+point 606.25 236.25 u:man_w -align top
+
+point 218.25 234.75 u:man_w -align top
 
 line wall
   844.0 203.0
@@ -810,6 +816,8 @@ endline
 area sump
   l155-1374-201
 endarea
+
+point 1381.5 238.0 u:man_c
 
 line label -id l155-1374-201 -close on
   1373.75 200.75

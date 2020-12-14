@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -167.36799999999994 -128.75 915.4041000000001 876.0409000000001
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -167.36799999999994 -131.0 915.4041000000001 876.0409000000001
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {67.24400000000003 1 1.0} {177.24900000000002 0@lutiniere_entree.lutiniere} lutiniere-2020-map.xvi 0 {}
 
 
@@ -1684,6 +1684,7 @@ line wall -subtype presumed
   altitude [-216 m]
   609.75 273.75 600.0 282.75 596.75 283.0
   593.5 283.25 590.0 283.0 587.5 285.25
+  smooth off
 endline
 
 line wall -subtype presumed
@@ -1828,6 +1829,8 @@ line section
 endline
 
 point 431.5 515.0 section -scrap SS-lutiniere-8
+
+point 278.0 596.0 u:symbol_plan
 
 line label -id l335-494-628 -close on
   490.0 638.25
