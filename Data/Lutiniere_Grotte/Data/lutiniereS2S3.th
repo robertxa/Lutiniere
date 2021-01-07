@@ -188,25 +188,78 @@ centerline -title "début du S3"
 	# Données du début du S3
 	date 2020.10.18
     	team "Stéphane Lips"
+    date 2021.01.03
+    	team "Stéphane Lips"
+        team "Cédric Lacharmoise"
     explo-date 2020.10.18
-    	explo-team "Stéphane Lips" 
+    	explo-team "Stéphane Lips"
+    explo-date 2020.12.27
+        explo-team "Stéphane Lips" 
+        explo-team "Cédric Lacharmoise"
+    explo-date 2021.01.03
+        explo-team "Stéphane Lips" 
+        explo-team "Cédric Lacharmoise"
+
     units length meters
     units compass clino degrees	
-	data diving from to length compass fromdepth	todepth left right up down
+	data diving from to length compass fromdepth    todepth left right up down
 	extend right
 	flags approx
 	# La visée fictive pour connecter le fil à l'arrêt topo
 	extend right
 	1	S3-0	3	100	0.25	0	2	0	4	2
 	extend left
-	1	S3-4	3	270	0.25	-1	1	1	0.5	0.5	# Trémie aval
+	1	S3-4b	3	270	0.25	-1	1	1	0.5	0.5	# Trémie aval
 	# Les visées approximatives dans le siphon 3
 	extend right
-	S3-0	S3-1	12	80	0	-10	0.75	0.75	2	0	# point bas à -12 m
-	S3-1	S3-2	8	80	-10	-6	2	2	3	0	# salle d'effondrement ; blocs
-	S3-2	S3-3	40	120	-6	-22	1	1	2	0	# CF de diam 2 m ; courant ; arrêt sur rien
-	
+    flags duplicate
+    S3-0	S3-1b	12	80	0	-10	0.75	0.75	2	0	# point bas à -12 m
+	S3-1b	S3-2b	8	80	-10	-6	2	2	3	0	# salle d'effondrement ; blocs
+	S3-2b	S3-3b	40	120	-6	-22	1	1	2	0	# CF de diam 2 m ; courant ; arrêt sur rien
+    flags not duplicate
+    flags not approx
+    data diving from to length compass fromdepth    todepth left right up down
+    #S3-0	S3-1	0	0	0	0	1	1	6	4   # Départ siphon 3
+    S3-0	S3-2	6.00	90.00	0.00	-4.50	1.00	1.00	2.00	0.00
+    S3-2	S3-3	16.00	80.00	-4.50	-11.00	3.00	1.00	2.00	1.00    # Point bas à -12 m
+    S3-3	S3-4	4.00	100.00	-11.00	-7.50	2.00	1.00	3.00	2.00
+    S3-4	S3-5	4.00	120.00	-7.50	-6.00	1.50	1.50	2.00	1.00    # point haut à -6 m
+    S3-5	S3-6	19.00	110.00	-6.00	-14.80	1.00	1.00	3.00	1.00
+    S3-6	S3-7	18.00	90.00	-14.80	-23.40	1.00	1.00	1.00	1.00
+    S3-7	S3-8	10.00	110.00	-23.40	-27.80	1.50	1.50	1.50	0.00
+    S3-8	S3-9	22.00	70.00	-27.80	-37.00	0.75	0.75	1.50	0.00
+    S3-9	S3-10	18.00	10.00	-37.00	-27.60	1.50	1.50	3.00	1.00    # Point bas à -37 m ; Virage
+    S3-10	S3-11	20.00	350.00	-27.60	-20.30	1.50	1.50	1.00	1.00
+    S3-11	S3-12	5.00	20.00	-20.30	-17.50	1.00	1.00	1.50	0.00
+    S3-12	S3-13	13.00	0.00	-17.50	-8.30	1.50	1.50	1.50	0.00
+    S3-13	S3-14	17.00	30.00	-8.30	0.00	1.50	1.50	1.00	1.00    # Sortie du S3
+
+    # dev S3 = 172 m
+
 endcenterline
 
+centerline -title "début du S3"
+	# Post-S3, visées fictives 
+    date 2021.01.03
+    	team "Stéphane Lips"
+        team "Cédric Lacharmoise"
+    explo-date 2021.01.03
+        explo-team "Stéphane Lips" 
+        explo-team "Cédric Lacharmoise"
+
+    units length meters
+    units compass clino degrees	
+	data diving from to length compass fromdepth    todepth left right up down
+	extend right
+	flags approx
+    S3-14	214	30.00	40.00	0	6.00	1.50	1.50	1.00	1.00	        # Galerie ébouleuse sur joint de strate
+    214	215	5.00	40.00	6.00	8.00	0.50	0.50	0.50	0.00	        # Fossile à désobstruer
+    214	S4-0b	20.00	180.00	8.00	0.00	1.50	1.50	1.00	1.00	    # Galerie propre sur joint de strate avec gros blocs roulés
+    S4-0b	S4-1b	5.00	90.00	0.00	-3.00	1.00	1.00	3.00	0.00	# S4 : trémie sous l'eau, départ entre bloc et paroi à aller voir à 3 m de profondeur.
+    flags not approx
+
+    # dev post-S3 = 60 m
+
+endcenterline
 
 endsurvey

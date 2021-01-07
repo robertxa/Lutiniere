@@ -1,7 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -167.36799999999994 -131.0 915.4041000000001 876.0409000000001
+##XTHERION## xth_me_area_adjust -207.0 -207.0 1230.103 1190.7329
 ##XTHERION## xth_me_area_zoom_to 100
-##XTHERION## xth_me_image_insert {67.24400000000003 1 1.0} {177.24900000000002 0@lutiniere_entree.lutiniere} lutiniere-2020-map.xvi 0 {}
+##XTHERION## xth_me_image_insert {67.24400000000003 0 1.0} {177.24900000000002 0@lutiniere_entree.lutiniere} lutiniere-2020-map.xvi 0 {}
+##XTHERION## xth_me_image_insert {66.98599999999999 1 1.0} {176.986 0@lutiniere_entree.lutiniere} lutiniere-2021-map.xvi 0 {}
 
 
 
@@ -777,7 +778,7 @@ area sump
   l423-675-678
 endarea
 
-point 676.75 671.25 station -name S3-3@lutiniereS2S3
+point 676.75 671.25 station -name S3-6@lutiniereS2S3
 
 line wall -id l423-675-678 -close on
   675.0 678.25
@@ -1830,7 +1831,7 @@ endline
 
 point 431.5 515.0 section -scrap SS-lutiniere-8
 
-point 278.0 596.0 u:symbol_plan
+point 230.0 816.0 u:symbol_plan
 
 line label -id l335-494-628 -close on
   490.0 638.25
@@ -1915,7 +1916,7 @@ endline
 
 point 510.634 359.059 station -name 106@lutiniereSiphons
 
-point 460.25 416.75 label -text "<center><it>S2<br>(170 m / -23 m)"
+point 596.25 382.75 label -text "<center><it>S2<br>(170 m / -23 m)"
 
 line wall
   481.75 648.75
@@ -2107,87 +2108,29 @@ endscrap
 
 scrap SP-S3-1 -projection plan -author 2020 "Xavier Robert" -copyright 2020 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 757.9216 -128.0 0.0 0.0 22.50240864 0.0 m]
 
-point 718.0 556.5 continuation -attr Code S -text "Siphon à continuer, descends, courant, c'est l'actif et la suite"
-
-line wall -subtype presumed
-  709.5 564.25
-  682.25 575.5
-endline
-
-line wall -subtype presumed
-  678.0 568.25
-  708.0 553.25
-endline
-
-line gradient
-  588.0 626.0
-  631.0 599.75
-endline
-
-line contour
-  624.5 615.0
-  624.5 615.0 622.0 603.25 612.0 601.0
-  smooth off
-endline
-
-line contour
-  610.75 623.0
-  610.75 623.0 608.0 609.0 601.0 606.5
-  smooth off
-endline
-
-line contour
-  597.5 630.75
-  597.5 630.75 594.75 615.25 583.75 612.75
-  smooth off
-endline
-
-area blocks
-  l406-565-649
-endarea
-
 point 532.75 640.0 altitude -align bottom
-
-point 554.0 660.0 altitude -align top
-
-line label -id l406-565-649 -close on
-  564.75 649.25
-  564.75 649.25 558.75 665.25 552.0 660.75
-  545.25 656.25 540.0 646.0 542.5 640.0
-  545.0 634.0 557.5 630.5 560.25 639.25
-  563.0 648.0 564.75 649.25 564.75 649.25
-  smooth off
-endline
-
-line pit
-  546.25 639.75
-  546.25 639.75 551.25 646.0 547.0 652.0
-  smooth off
-endline
-
-point 682.25 575.5 altitude -align top-right
 
 area sump
   l402-662-597
 endarea
 
 line label -id l402-662-597 -close on
-  677.5 563.5
-  708.0 553.25
-  709.5 564.25
-  709.5 564.25 672.0 590.5 661.75 597.25
-  651.5 604.0 579.0 649.5 571.0 654.0
-  563.0 658.5 554.25 666.75 548.25 661.0
+  777.25 592.75
+  885.0 632.0
+  885.0 632.0 877.3 771.14 867.5 772.25
+  794.95 780.47 842.5 627.0 832.25 633.75
+  822.0 640.5 614.0 664.75 606.0 669.25
+  598.0 673.75 554.25 666.75 548.25 661.0
   542.25 655.25 528.0 654.25 519.5 652.5
   511.0 650.75 503.0 651.25 503.25 644.75
   503.5 638.25 516.5 636.5 527.25 635.25
-  538.0 634.0 550.25 636.25 561.0 630.0
-  571.75 623.75 657.75 575.5 664.0 571.0
-  670.25 566.5 677.5 563.5 677.5 563.5
+  538.0 634.0 596.25 644.75 607.0 638.5
+  617.75 632.25 683.25 611.5 689.5 607.0
+  695.75 602.5 777.25 592.75 777.25 592.75
   smooth off
 endline
 
-point 562.0 586.25 label -text "<it><center>S3<br>(60 m / -22 m)"
+point 710.25 777.0 label -text "<it><center>S3<br>(172 m / -38 m)"
 
 line water-flow
   552.75 630.5
@@ -2196,42 +2139,229 @@ line water-flow
   smooth off
 endline
 
-line water-flow
-  679.0 584.5
-  679.0 584.5 629.5 615.25 624.0 618.5
-  618.5 621.75 592.0 637.0 592.0 637.0
+line contour
+  868.75 652.25
+  868.75 652.25 858.25 660.25 851.0 653.5
   smooth off
 endline
 
-line u:ariane
-  677.2840000000001 573.1990000000001
-  552.644 645.9490000000001
-  532.134 642.4090000000001
-  523.154 642.019
+line contour
+  871.0 667.5
+  871.0 667.5 862.5 676.25 854.75 670.5
+  smooth off
 endline
 
-line section
-  676.25 569.5
-  671.5 559.5
+line contour
+  874.25 679.5
+  874.25 679.5 859.25 688.5 855.25 680.0
+  smooth off
 endline
 
-line section
-  701.0 607.0
-  687.25 592.75
-  679.25 577.5
+line contour
+  874.0 716.0
+  874.0 716.0 852.25 717.0 850.75 708.75
+  smooth off
 endline
 
-point 702.25 611.25 section -scrap SS-lutiniere-9
+line contour
+  871.25 727.75
+  871.25 727.75 848.0 728.75 848.0 722.0
+  smooth off
+endline
+
+line contour
+  868.0 745.75
+  868.0 745.75 849.5 746.0 846.75 739.0
+  smooth off
+endline
+
+line contour
+  867.5 757.75
+  867.5 757.75 850.25 760.25 846.5 753.5
+  smooth off
+endline
+
+line gradient
+  866.0 687.25
+  857.5 640.25
+endline
+
+line gradient
+  855.25 760.5
+  864.5 708.0
+endline
+
+line gradient
+  697.0 620.25
+  744.0 619.75
+endline
+
+line gradient
+  628.5 641.5
+  672.75 624.75
+endline
+
+line contour
+  724.75 628.75
+  724.75 628.75 721.0 616.0 726.25 611.5
+  smooth off
+endline
+
+line contour
+  714.75 627.5
+  714.75 627.5 709.5 616.75 715.5 611.5
+  smooth off
+endline
+
+line contour
+  701.25 628.25
+  701.25 628.25 698.5 617.5 701.75 613.0
+  smooth off
+endline
+
+line contour
+  654.5 639.5
+  654.5 639.5 644.25 633.0 646.5 625.5
+  smooth off
+endline
+
+line contour
+  644.5 643.5
+  644.5 643.5 636.5 634.5 638.0 628.5
+  smooth off
+endline
+
+line contour
+  638.75 648.0
+  638.75 648.0 628.25 643.0 630.0 632.5
+  smooth off
+endline
+
+area blocks -place top
+  l459-628-655
+endarea
+
+line label -id l459-628-655 -close on
+  595.0 667.25
+  595.0 667.25 586.25 647.75 588.0 638.75
+  589.75 629.75 627.75 642.5 628.5 655.5
+  629.25 668.5 608.0 667.0 603.25 667.0
+  598.5 667.0 595.0 667.25 595.0 667.25
+  smooth off
+endline
+
+line pit
+  584.75 641.0
+  584.75 641.0 596.0 651.5 586.75 658.75
+  smooth off
+endline
+
+line water-flow
+  846.5 679.5
+  846.5 679.5 846.25 642.5 829.0 638.25
+  811.75 634.0 787.75 621.5 775.25 625.0
+  762.75 628.5 738.75 634.75 726.0 634.0
+  713.25 633.25 691.5 634.75 691.5 634.75
+  smooth off
+endline
+
+point 615.25 643.0 altitude -align bottom-left
 
 line wall
-  682.25 575.5
-  682.25 575.5 662.5 589.0 652.25 594.25
-  642.0 599.5 590.5 633.5 585.25 634.5
-  580.0 635.5 567.5 641.0 563.75 645.25
-  560.0 649.5 559.25 648.0 557.25 653.25
-  555.25 658.5 554.25 662.25 551.75 658.25
-  549.25 654.25 549.5 651.0 545.75 650.0
-  542.0 649.0 536.0 646.5 534.0 646.5
+  534.25 640.0
+  534.25 640.0 539.5 637.75 547.25 638.25
+  altitude [-218 m]
+  555.0 638.75 577.75 643.5 584.5 644.5
+  591.25 645.5 607.25 650.5 615.25 643.0
+  623.25 635.5 635.5 634.0 645.25 630.0
+  655.0 626.0 679.0 618.0 687.5 616.5
+  altitude [-218 m]
+  696.0 615.0 740.25 619.0 749.0 615.0
+  757.75 611.0 777.25 599.5 787.25 602.5
+  altitude [-218 m]
+  797.25 605.5 860.0 627.75 861.5 636.75
+  altitude [-218 m]
+  863.0 645.75 873.75 689.25 872.5 696.25
+  altitude [-218 m]
+  871.25 703.25 861.25 762.75 861.25 765.5
+  861.25 768.25 862.5 772.5 862.5 772.5
+  smooth off
+endline
+
+point 850.5 637.75 altitude -align top-left
+
+line u:ariane
+  520.514 644.539
+  532.134 642.4090000000001
+  547.456 642.066
+  604.226 651.786
+  604.226 651.786 610.41 650.14 611.706 650.446
+  613.0 650.75 624.306 643.086 624.306 643.086
+  smooth off
+  686.516 620.096
+  748.756 619.776
+  781.906 607.536
+  855.996 634.066
+  866.7860000000001 693.516
+  854.386 765.766
+  860.056 781.076
+endline
+
+line wall
+  850.25 770.25
+  850.25 770.25 847.75 765.25 849.0 756.75
+  altitude [-218 m]
+  850.25 748.25 856.0 721.5 856.75 712.75
+  857.5 704.0 862.5 694.25 860.0 685.75
+  857.5 677.25 857.75 642.75 850.5 637.75
+  843.25 632.75 821.0 621.5 808.25 621.5
+  795.5 621.5 790.75 609.75 778.5 615.0
+  766.25 620.25 756.0 624.0 743.25 623.75
+  730.5 623.5 689.25 622.0 682.0 625.5
+  674.75 629.0 641.25 641.75 630.75 647.5
+  620.25 653.25 613.75 661.5 605.0 661.75
+  altitude [-218 m]
+  596.25 662.0 595.5 661.25 590.5 657.25
+  585.5 653.25 558.75 649.0 554.5 648.0
+  550.25 647.0 534.0 646.5 534.0 646.5
+  smooth off
+endline
+
+point 854.386 765.766 station -name S3-11@lutiniereS2S3
+
+point 866.7860000000001 693.516 station -name S3-10@lutiniereS2S3
+
+point 855.996 634.066 station -name S3-9@lutiniereS2S3
+
+point 781.906 607.536 station -name S3-8@lutiniereS2S3
+
+point 748.756 619.776 station -name S3-7@lutiniereS2S3
+
+point 686.516 620.096 station -name S3-6@lutiniereS2S3
+
+point 624.306 643.086 station -name S3-5@lutiniereS2S3
+
+point 611.706 650.446 station -name S3-4@lutiniereS2S3
+
+point 604.226 651.786 station -name S3-3@lutiniereS2S3
+
+point 547.456 642.066 station -name S3-2@lutiniereS2S3
+
+line section
+  676.0 619.75
+  672.5 612.25
+endline
+
+line section
+  722.75 653.5
+  682.5 634.5
+  678.75 627.5
+endline
+
+point 723.0 665.25 section -scrap SS-lutiniere-9
+
+line wall
+  534.0 646.5
   altitude [-218 m]
   532.0 646.5 527.75 647.25 526.0 647.0
   524.25 646.75 524.25 649.0 521.5 648.5
@@ -2249,25 +2379,211 @@ endline
 line wall
   515.5 638.5
   519.5 639.25 527.75 639.0 532.75 640.0
-  537.75 641.0 545.25 643.75 547.25 641.75
-  549.25 639.75 547.5 639.25 550.0 636.0
-  altitude [-218 m]
-  552.5 632.75 551.5 638.75 556.5 637.0
-  561.5 635.25 618.0 602.25 628.75 597.0
-  639.5 591.75 678.0 568.25 678.0 568.25
   smooth off
-  altitude [-218 m]
 endline
 
-point 677.2840000000001 573.1990000000001 station -name S3-3@lutiniereS2S3
-
-point 552.644 645.9490000000001 station -name S3-2@lutiniereS2S3
-
-point 532.134 642.4090000000001 station -name S3-1@lutiniereS2S3
+point 532.134 642.4090000000001 station -name S3-0@lutiniereS2S3
 
 point 520.514 644.539 station -name 1@lutiniereS2S3
 
-point 509.80400000000003 644.579 station -name S3-4@lutiniereS2S3
+point 509.80400000000003 644.579 station -name S3-4b@lutiniereS2S3
+
+endscrap
+
+
+
+scrap SP-S3-2 -projection plan -author 2021 "Xavier Robert" -copyright 2021 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 757.9216 -128.0 0.0 0.0 22.50240864 0.0 m]
+
+point 860.2560000000001 817.216 station -name S3-13@lutiniereS2S3
+
+point 889.696 867.6959999999999 station -name S3-14@lutiniereS2S3
+
+line wall
+  867.5 817.75
+  867.5 817.75 881.0 843.75 887.0 851.5
+  893.0 859.25 895.0 864.75 895.0 864.75
+  smooth off
+endline
+
+line u:ariane
+  854.386 765.766
+  860.056 781.076
+  860.2560000000001 817.216
+  889.696 867.6959999999999
+endline
+
+line water-flow
+  893.0 852.25
+  893.0 852.25 874.0 816.75 872.25 803.0
+  870.5 789.25 869.0 776.25 869.0 776.25
+  smooth off
+endline
+
+line wall
+  885.25 870.0
+  altitude [-218 m]
+  885.25 870.0 855.25 826.0 854.5 819.5
+  smooth off
+endline
+
+line wall
+  854.5 819.5
+  altitude [-218 m]
+  854.5 819.5 855.5 796.75 855.5 789.75
+  855.5 782.75 854.25 778.0 852.0 774.75
+  849.75 771.5 850.25 770.25 850.25 770.25
+  smooth off
+endline
+
+area sump
+  l488-874-794
+endarea
+
+line label -id l488-874-794 -close on
+  873.5 794.5
+  907.5 859.0
+  866.5 879.0
+  866.5 879.0 847.5 798.25 847.5 791.25
+  847.5 784.25 848.0 773.0 850.25 770.25
+  852.5 767.5 859.25 770.25 862.5 772.5
+  865.75 774.75 873.5 794.5 873.5 794.5
+  smooth off
+endline
+
+line wall
+  862.5 772.5
+  862.5 772.5 865.0 779.5 865.0 786.25
+  865.0 793.0 866.5 808.75 866.5 812.5
+  866.5 816.25 867.5 817.75 867.5 817.75
+  smooth off
+endline
+
+point 860.056 781.076 station -name S3-12@lutiniereS2S3
+
+endscrap
+
+
+
+scrap SP-S3S4-1 -projection plan -author 2021 "Xavier Robert" -copyright 2021 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 757.9216 -128.0 0.0 0.0 22.50240864 0.0 m]
+
+point 992.5 902.25 label -text "<it><center>S4<br>(5 m ; -3 m)"
+
+point 965.5 877.5 altitude -align bottom
+
+line wall -subtype unsurveyed
+  911.25 878.0
+  911.25 878.0 902.0 873.5 904.75 876.25
+  907.5 879.0 921.5 896.0 927.75 902.25
+  934.0 908.5 951.5 929.25 954.0 933.5
+  956.5 937.75 956.75 943.25 958.5 939.5
+  960.25 935.75 957.75 920.0 957.75 911.25
+  957.75 902.5 957.5 889.75 959.25 884.5
+  961.0 879.25 963.25 876.0 965.5 877.5
+  967.75 879.0 967.25 881.0 972.25 880.75
+  977.25 880.5 983.25 881.0 983.25 881.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  895.0 864.75
+  897.75 868.0 905.25 871.25 905.25 871.25
+  smooth off
+endline
+
+point 975.75 974.25 altitude -align top-left
+
+point 924.0 876.5 water-flow -orientation 262.9
+
+point 909.5 861.75 narrow-end
+
+point 910.25 873.0 breakdown-choke -orientation 273.0
+
+area sump
+  l505-984-884
+endarea
+
+line label -id l505-984-884 -close on
+  980.25 875.5
+  983.25 881.0
+  984.25 888.0
+  984.25 888.0 973.25 892.0 971.5 888.75
+  969.75 885.5 964.25 884.0 965.25 880.0
+  966.25 876.0 968.5 876.25 972.0 876.25
+  975.5 876.25 980.25 875.5 980.25 875.5
+  smooth off
+endline
+
+point 992.5 885.0 continuation -attr Code S -text "S4 dans blocs à plonger"
+
+point 985.5 984.5 continuation -attr Code D -text "Trémie à désobstruer"
+
+point 969.0 883.75 breakdown-choke -orientation 294.1
+
+point 979.0 974.0 breakdown-choke -orientation 225.0
+
+line wall -subtype unsurveyed
+  975.75 974.25
+  975.75 974.25 966.5 963.5 959.25 956.5
+  952.0 949.5 925.75 921.0 919.5 912.75
+  913.25 904.5 891.0 878.5 885.25 870.0
+  smooth off
+endline
+
+point 913.0 895.0 pebbles
+
+point 938.5 930.5 pebbles
+
+point 965.25 895.75 pebbles
+
+point 962.25 917.75 pebbles
+
+point 965.0 936.5 pebbles
+
+area blocks
+  l515-921-884
+endarea
+
+area water
+  l511-900-860
+endarea
+
+line label -id l511-900-860 -close on
+  900.0 860.0
+  900.0 860.0 892.5 882.5 885.25 876.5
+  878.0 870.5 875.5 865.5 883.5 862.75
+  891.5 860.0 900.0 860.0 900.0 860.0
+  smooth off
+endline
+
+line label -id l515-921-884 -close on
+  956.75 934.25
+  956.75 934.25 978.0 954.5 975.75 957.75
+  973.5 961.0 980.5 976.25 970.25 972.5
+  960.0 968.75 901.0 909.25 890.75 895.0
+  880.5 880.75 880.0 873.0 885.25 870.0
+  890.5 867.0 900.5 858.25 905.0 864.0
+  909.5 869.75 911.75 873.25 920.0 882.25
+  928.25 891.25 956.75 934.25 956.75 934.25
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  984.25 888.0
+  984.25 888.0 975.75 887.25 972.75 888.0
+  969.75 888.75 969.5 887.75 969.5 894.0
+  969.5 900.25 969.25 934.25 969.5 939.25
+  969.75 944.25 970.0 953.0 971.25 956.25
+  972.5 959.5 979.25 970.25 979.25 970.25
+  smooth off
+endline
+
+point 976.196 969.6959999999999 station -name 215@lutiniereS2S3
+
+point 964.546 955.9259999999999 station -name 214@lutiniereS2S3
+
+point 979.896 883.6759999999999 station -name S4-1b@lutiniereS2S3
+
+point 964.146 883.756 station -name S4-0b@lutiniereS2S3
 
 endscrap
 
