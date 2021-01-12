@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -247.0 -286.0 2528.6864 599.9216
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -245.76999999999998 -286.0 2529.9164 599.9216
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {117.48199999999997 0 1.0} {275.591 0@lutiniere_entree.lutiniere} lutiniere-2020-coupe.xvi 0 {}
 ##XTHERION## xth_me_image_insert {118.45000000000005 1 1.0} {275.074 0@lutiniere_entree.lutiniere} lutiniere-2021-coupe.xvi 0 {}
 
@@ -735,9 +735,33 @@ endscrap
 
 scrap SC-Lutiniere-3 -projection extended -author 2020 "Xavier Robert" -copyright 2020 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [79.0 236.0 118.92160000000001 236.0 0.0 0.0 10.0 0.0 m]
 
+point 1108.5 194.25 continuation -attr Code S -text "Départ de CF de 1 m de diamètre à explorer"
+
+point 1079.25 207.0 continuation -attr Code S -text "Cheminée remontante à explorer"
+
+line wall -subtype unsurveyed
+  1077.5 195.0
+  1077.5 195.0 1078.5 189.0 1080.5 181.5
+  1082.5 174.0 1082.5 163.5 1082.5 163.5
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  1102.25 190.0
+  1102.25 190.0 1095.0 182.5 1092.0 187.5
+  1089.0 192.5 1088.0 196.5 1085.5 198.0
+endline
+
+line wall -subtype unsurveyed
+  1100.5 171.0
+  1100.5 171.0 1096.0 178.5 1097.0 180.5
+  1098.0 182.5 1104.0 187.5 1104.0 187.5
+  smooth off
+endline
+
 line wall
-  1087.25 167.0
-  1087.25 167.0 1073.0 155.0 1067.75 156.0
+  1082.5 163.5
+  1082.5 163.5 1073.0 155.0 1067.75 156.0
   1062.5 157.0 1054.0 158.75 1051.5 159.0
   1049.0 159.25 1037.5 152.75 1036.25 153.5
   1035.0 154.25 1036.0 155.5 1036.0 155.5
@@ -825,8 +849,8 @@ line label -id l155-1374-201 -close on
   1389.0 223.5
   1354.0 223.25
   1281.25 215.0
-  1281.25 215.0 1112.5 190.75 1100.5 184.5
-  1088.5 178.25 1064.75 165.25 1057.5 165.5
+  1281.25 215.0 1090.0 207.25 1078.0 201.0
+  1066.0 194.75 1064.75 165.25 1057.5 165.5
   1050.25 165.75 1036.0 155.5 1036.0 155.5
   smooth off
   1029.0 160.0
@@ -881,7 +905,7 @@ line wall
   1266.25 194.25 1237.0 186.0 1227.25 185.5
   1217.5 185.0 1163.25 181.5 1151.75 181.5
   1140.25 181.5 1121.25 180.5 1111.5 176.25
-  1101.75 172.0 1087.25 167.0 1087.25 167.0
+  1101.75 172.0 1100.5 171.0 1100.5 171.0
   smooth off
 endline
 
@@ -1071,7 +1095,7 @@ point 1504.59 184.954 station -name S3-3@lutiniereS2S3
 
 point 1447.03 210.544 station -name S3-2@lutiniereS2S3
 
-point 1763.5 180.75 label -text "<it><center>S3 (172 m / -38 m)"
+point 1763.5 180.75 label -text "<it><center>S3 (172 m / -37 m)"
 
 line wall
   1408.0 219.5

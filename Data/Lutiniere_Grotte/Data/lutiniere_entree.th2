@@ -2130,7 +2130,7 @@ line label -id l402-662-597 -close on
   smooth off
 endline
 
-point 710.25 777.0 label -text "<it><center>S3<br>(172 m / -38 m)"
+point 710.25 777.0 label -text "<it><center>S3<br>(172 m / -37 m)"
 
 line water-flow
   552.75 630.5
