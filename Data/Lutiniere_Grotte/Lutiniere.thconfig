@@ -128,8 +128,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
    
 	# Specifier qu il faut imprimer une grille
@@ -276,8 +276,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	symbol-hide line survey
-	#debug station-names
+	#symbol-hide line survey
+	debug station-names
   
 	# Specifier le pas de la grille, ici 100x100x100 metres
 	# (Trois dimensions, oui, ça sert pour la coupe aussi) 
@@ -320,8 +320,8 @@ endlayout
 
   
 # 3-EXPORTS   
-export map -fmt xvi -layout xviexport -o Data/lutiniere-2021-map.xvi
-export map -proj extended -layout xviexport -fmt xvi -o Data/lutiniere-2021-coupe.xvi
+export map -fmt xvi -layout xviexport -o Data/lutiniere-2021b-map.xvi
+export map -proj extended -layout xviexport -fmt xvi -o Data/lutiniere-2021b-coupe.xvi
 
 # Select maps
 	select MP-Lutiniere-plan-tot@lutiniere
