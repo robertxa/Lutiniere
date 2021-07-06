@@ -1,6 +1,6 @@
 encoding  utf-8
   
-# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 2020-2021 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
   
@@ -128,8 +128,8 @@ layout my_layout
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
    
 	# Specifier qu il faut imprimer une grille
@@ -276,8 +276,8 @@ layout my_layout-coupe
   
 	# Options pour afficher le squelette topo,
 	# les points et le nom des stations topos
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
   
 	# Specifier le pas de la grille, ici 100x100x100 metres
 	# (Trois dimensions, oui, ça sert pour la coupe aussi) 

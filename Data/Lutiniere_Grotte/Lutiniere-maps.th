@@ -1,6 +1,6 @@
 encoding  utf-8
 
-# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# Copyright (C) 2020-2021 Xavier Robert <xavier.robert***@***ird.fr>
 # This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
 #	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
 
@@ -26,8 +26,11 @@ map MP-Lutiniere-plan-tot -title "Grotte de la Lutinière"
 	SP-S3-1
 	break
 	SP-S3-2
-	break
-	SP-S3S4-1
+	#break
+	#SP-S3S4-1
+	#break
+	#SP-S3S4-1
+
 endmap
 
 map MC-Lutiniere-coupe-tot -title "Grotte de la Lutinière"
@@ -42,8 +45,9 @@ map MC-Lutiniere-coupe-tot -title "Grotte de la Lutinière"
 	SC-S2S3-1
 	break
 	SC-S3-2
-	break
-	SC-S3S4-1
-
+	#break
+	#SC-S3S4-1
+	#break
+	#SC-S3S4-1
 endmap
    
