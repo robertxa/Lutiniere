@@ -30,9 +30,13 @@ survey lutiniere -title "Grotte de la Lutinière"
 
 ## Pour le plan
 input Data/lutiniere_entree.th2
+input Data/lutiniere-S3S4.th2
+join SP-LutS3S4-1 SP-S3-2
 
 ## Pour la coupe développée
 input Data/lutiniere_entree-coupe.th2
+input Data/lutiniere-S3S4-coupe.th2
+join SC-LutS3S4-1 SC-S3-2
 
 ## Appel des maps
 input Lutiniere-maps.th

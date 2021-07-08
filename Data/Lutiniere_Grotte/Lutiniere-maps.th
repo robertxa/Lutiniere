@@ -30,6 +30,8 @@ map MP-Lutiniere-plan-tot -title "Grotte de la Lutinière"
 	#SP-S3S4-1
 	#break
 	#SP-S3S4-1
+	break
+	SP-LutS3S4-1
 
 endmap
 
@@ -49,5 +51,7 @@ map MC-Lutiniere-coupe-tot -title "Grotte de la Lutinière"
 	#SC-S3S4-1
 	#break
 	#SC-S3S4-1
+	break
+	SC-LutS3S4-1
 endmap
    
