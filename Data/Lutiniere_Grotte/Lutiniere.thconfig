@@ -42,6 +42,7 @@ layout my_layout
 	copy drawingconfig
 	copy headerl
 	copy langue-fr
+	
 	# Titre  
 	doc-title "Grotte de la Lutinière - Plan"
 	doc-author "Xavier Robert"

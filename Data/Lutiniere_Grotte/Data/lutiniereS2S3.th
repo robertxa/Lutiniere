@@ -454,6 +454,13 @@ endcenterline
 
 centerline -title "Intersiphon S4 estimé"
 
+    date 2021.07.03
+    	team "Stéphane Lips"
+        team "Cédric Lacharmoise"
+    explo-date 2021.07.03
+        explo-team "Stéphane Lips" 
+        explo-team "Cédric Lacharmoise"
+        
     data normal from to length compass clino left right up down
     flags approx
     2021-07-1  2021-07-1b                7.50    0.00  -90.00   1.00   1.00   1.00   1.00   # Visée verticale dans S4

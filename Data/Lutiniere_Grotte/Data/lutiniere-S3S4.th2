@@ -120,6 +120,7 @@ line wall -subtype unsurveyed
   1115.5 -772.0 1094.5 -799.0 1088.5 -799.5
   1082.5 -800.0 1074.0 -797.0 1074.0 -785.0
   1074.0 -773.0 1073.5 -751.0 1073.0 -744.0
+  smooth off
 endline
 
 line wall -subtype unsurveyed
@@ -215,95 +216,111 @@ line wall
   961.0 -874.5 959.0 -881.5 953.5 -891.0
   948.0 -900.5 944.5 -912.5 951.0 -924.5
   957.5 -936.5 959.5 -948.5 959.5 -955.0
+  smooth off
 endline
 
 line slope
   656.5 -523.5
   656.5 -523.5 633.0 -542.0 606.0 -530.5
+  smooth off
   l-size 10.0
 endline
 
 line slope
   645.5 -490.5
   645.5 -490.5 626.5 -513.0 596.5 -505.5
+  smooth off
   l-size 10.0
 endline
 
 line slope
   634.0 -458.0
   634.0 -458.0 620.0 -484.0 587.0 -477.0
+  smooth off
   l-size 10.0
 endline
 
 line slope
   677.5 -735.5
   677.5 -735.5 640.0 -790.5 584.5 -772.5
+  smooth off
   l-size 10.0
 endline
 
 line slope
   667.0 -724.5
   667.0 -724.5 630.5 -758.5 584.5 -749.5
+  smooth off
   l-size 10.0
 endline
 
 line slope
   658.5 -695.0
   655.0 -698.5 621.5 -751.0 585.5 -722.0
+  smooth off
   l-size 10.0
 endline
 
 line slope
   983.5 -863.5
   983.5 -863.5 964.5 -866.0 957.5 -865.5
+  smooth off
   l-size 8.0
 endline
 
 line slope
   1015.0 -850.5
   1015.0 -850.5 999.0 -857.0 991.5 -856.5
+  smooth off
   l-size 8.0
 endline
 
 line slope
   1013.0 -836.5
   1013.0 -836.5 1001.5 -845.5 992.5 -841.0
+  smooth off
   l-size 8.0
 endline
 
 line slope
   984.5 -845.5
   984.5 -845.5 971.5 -850.0 962.5 -848.0
+  smooth off
   l-size 8.0
 endline
 
 line slope
   875.5 -766.0
   875.5 -766.0 833.0 -804.5 815.0 -804.0
+  smooth off
   l-size 8.0
 endline
 
 line slope
   884.5 -786.5
   884.5 -786.5 846.0 -821.0 822.0 -822.0
+  smooth off
   l-size 8.0
 endline
 
 line slope
   908.0 -830.0
   908.0 -830.0 866.5 -877.0 835.5 -866.0
+  smooth off
   l-size 8.0
 endline
 
 line slope
   991.0 -773.0
   991.0 -773.0 984.5 -834.0 962.5 -839.0
+  smooth off
   l-size 8.0
 endline
 
 line pit
   905.5 -824.0
   905.5 -824.0 904.5 -803.5 887.5 -799.5
+  smooth off
 endline
 
 point 1114.0 -994.0 label -text "R2"
@@ -313,6 +330,7 @@ point 816.0 -643.5 label -text "R3"
 line pit
   952.0 -704.5
   952.0 -704.5 931.0 -692.5 906.5 -711.5
+  smooth off
 endline
 
 point 1239.5 -501.5 label -text "<center><it>S4<br>(12 m / -6 m)"
@@ -324,6 +342,7 @@ point 1183.5 -837.0 narrow-end
 line slope
   914.0 -849.0
   914.0 -849.0 877.0 -909.5 842.5 -904.0
+  smooth off
   l-size 8.0
 endline
 
@@ -340,60 +359,70 @@ point 896.0 -897.5 pebbles
 line slope
   990.0 -1662.5
   990.0 -1662.5 937.5 -1701.5 911.0 -1677.5
+  smooth off
   l-size 12.0
 endline
 
 line slope
   984.5 -1623.0
   984.5 -1623.0 924.5 -1653.0 900.0 -1631.5
+  smooth off
   l-size 12.0
 endline
 
 line slope
   982.0 -1579.5
   982.0 -1579.5 935.5 -1618.5 895.0 -1589.5
+  smooth off
   l-size 12.0
 endline
 
 line slope
   977.5 -1519.5
   977.5 -1519.5 928.5 -1582.0 889.0 -1550.0
+  smooth off
   l-size 12.0
 endline
 
 line slope
   959.5 -1426.5
   959.5 -1426.5 896.0 -1470.5 862.0 -1439.0
+  smooth off
   l-size 12.0
 endline
 
 line slope
   946.5 -1386.5
   946.5 -1386.5 889.5 -1409.0 854.0 -1391.0
+  smooth off
   l-size 12.0
 endline
 
 line slope
   940.5 -1327.5
   940.5 -1327.5 876.5 -1372.0 846.0 -1347.0
+  smooth off
   l-size 12.0
 endline
 
 line slope
   888.5 -1062.5
   888.5 -1062.5 816.0 -1116.5 763.5 -1100.5
+  smooth off
   l-size 12.0
 endline
 
 line slope
   896.5 -1112.0
   896.5 -1112.0 850.0 -1156.0 791.5 -1149.0
+  smooth off
   l-size 12.0
 endline
 
 line slope
   901.5 -1178.5
   901.5 -1178.5 866.5 -1212.5 808.5 -1200.5
+  smooth off
   l-size 12.0
 endline
 
@@ -848,6 +877,7 @@ line wall -subtype debris
   1051.0 -1753.5
   1051.0 -1753.5 1047.0 -1746.5 1035.0 -1738.0
   1023.0 -1729.5 1009.0 -1730.5 1004.5 -1724.0
+  smooth off
 endline
 
 line wall
